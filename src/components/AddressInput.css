@@ -1,0 +1,95 @@
+.owner-bitcoin-address {
+  position: relative;
+  font-weight: 500;
+}
+.lookup-background {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  background-color: var(--secondary);
+}
+.lookup-button-child {
+  height: 46px;
+  width: 342px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumslateblue);
+  display: none;
+  max-width: 100%;
+}
+.look-up {
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--typography-1);
+  text-align: center;
+  display: inline-block;
+  min-width: 58px;
+  z-index: 1;
+}
+.lookup-background-parent,
+.lookup-button {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.lookup-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-sm)
+    var(--padding-5xl);
+  background-color: var(--color-mediumslateblue);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.lookup-background-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.results {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 53px;
+}
+.results-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+}
+.address-details {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.address-details,
+.bitcoin-address,
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bitcoin-address {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-mid) var(--padding-sm) var(--padding-base);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,6 @@
+.abcd {
+  width: 375px;
+  height: 375px;
+  flex-shrink: 0;
+  background: lightgray 50% / cover no-repeat;
+}

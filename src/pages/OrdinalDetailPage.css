@@ -1,0 +1,447 @@
+.nft-child,
+.nft-item {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  border-radius: var(--br-3xs);
+}
+.nft-child {
+  left: 0;
+  background-color: var(--secondary);
+  width: 100%;
+}
+.nft-item {
+  bottom: 0;
+  left: 183px;
+  background-color: #33343c;
+  width: 160px;
+}
+.group-icon {
+  position: absolute;
+  height: 43.33%;
+  width: 15.16%;
+  top: 30.83%;
+  right: 15.74%;
+  bottom: 25.83%;
+  left: 69.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.milenot-way-apt,
+.property-access-key {
+  position: absolute;
+  width: 37.03%;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+.milenot-way-apt {
+  top: 16.67%;
+  left: 5.83%;
+  line-height: 22px;
+  font-weight: 600;
+}
+.property-access-key {
+  top: 63.33%;
+  left: 5.54%;
+  font-size: var(--font-size-xs);
+  line-height: 24px;
+  color: var(--typography-3);
+}
+.nft {
+  position: absolute;
+  top: 61px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+.frame-child {
+  height: 45px;
+  width: 45px;
+  position: relative;
+}
+.other-nfts {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--secondary-btc);
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.div {
+  position: absolute;
+  top: 14.58%;
+  left: 33.33%;
+  font-weight: 600;
+}
+.ellipse-parent {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--secondary-btc);
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.nav-bar-icon,
+.nft-parent {
+  width: 343px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.nft-parent {
+  height: 181px;
+  z-index: 1;
+}
+.nav-bar-icon {
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.inscription-10001 {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 22px;
+  font-weight: 600;
+}
+.frame-inner {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-top: 2px solid var(--secondary);
+  box-sizing: border-box;
+}
+.inscription-10001-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.f88c517a52f83b9b0d733b4eb81979,
+.inscription-id {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.inscription-id {
+  min-width: 83px;
+}
+.f88c517a52f83b9b0d733b4eb81979 {
+  width: 311px;
+  height: 38px;
+  font-size: var(--font-size-sm);
+  line-height: 19px;
+  color: var(--typography-1);
+  max-height: 38px;
+  word-break: break-word;
+}
+.owner-details,
+.owner-labels {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.owner-labels {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.owner-details {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+  font-size: var(--font-size-xs);
+  color: var(--typography-3);
+}
+.bc1prh0cd85fvtdqpte4anvu78ma49,
+.owner-address {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+}
+.owner-address {
+  min-width: 94px;
+}
+.bc1prh0cd85fvtdqpte4anvu78ma49 {
+  width: 311px;
+  height: 38px;
+  font-size: var(--font-size-sm);
+  line-height: 19px;
+  color: var(--typography-1);
+  max-height: 38px;
+  word-break: break-word;
+}
+.owner-address-parent,
+.owner-details1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.owner-address-parent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.owner-details1 {
+  flex-direction: row;
+  padding: 0 var(--padding-12xs) 26px;
+  font-size: var(--font-size-xs);
+  color: var(--typography-3);
+}
+.attributes {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 12px;
+  font-weight: 600;
+}
+.attributes-wrapper {
+  width: 125px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 11px 0;
+  box-sizing: border-box;
+}
+.second-input-fields-row {
+  align-self: stretch;
+  gap: 19px;
+}
+.frame-group,
+.inputs-input-filed-parent,
+.second-input-fields-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputs-input-filed-parent {
+  align-self: stretch;
+  gap: 26px;
+}
+.frame-group {
+  flex: 1;
+  gap: 22px;
+  flex-shrink: 0;
+}
+.frame-wrapper,
+.header-parent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 15px 0 17px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}
+.header-parent {
+  height: 1198px;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 1110px;
+  gap: 399px;
+}
+.image-1-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image-1-wrapper,
+.nfts-detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-1-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 88px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: -375px;
+}
+.nfts-detail {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-color);
+  overflow: hidden;
+  flex-direction: row;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 64px) {
+  .ellipse-parent {
+    width: calc(100% - 40px);
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-2xl: 21px;
+
+  /* Colors */
+  --secondary: #24252c;
+  --background-color: #1a1a1a;
+  --typography-3: rgba(255, 255, 255, 0.7);
+  --color-gray-100: rgba(36, 37, 44, 0.8);
+  --typography-1: #fff;
+  --secondary-btc: #f7931a;
+
+  /* Gaps */
+  --gap-2xl: 21px;
+  --gap-5xs: 8px;
+  --gap-99xl: 118px;
+
+  /* Paddings */
+  --padding-10xs: 3px;
+  --padding-smi: 13px;
+  --padding-4xs: 9px;
+  --padding-12xs: 1px;
+  --padding-29xl: 48px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-8xs: 5px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+}
+
+.header-child {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--background-color);
+  opacity: 0;
+}
+.frame-icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.create-new-nft {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 50px;
+  z-index: 1;
+}
+.create-new-nft-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+}
+.connections-icon {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  width: 68px;
+  height: 16px;
+  object-fit: cover;
+}
+.time,
+.time1 {
+  position: absolute;
+}
+.time1 {
+  width: calc(100% - 2px);
+  top: calc(50% - 18.5px);
+  left: -4.7px;
+  letter-spacing: -0.33px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.time {
+  top: 6px;
+  left: 21px;
+  width: 56px;
+  height: 23px;
+}
+.status-bar {
+  height: 44px;
+  width: 375px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 3;
+  font-size: var(--font-size-2xl);
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-base) var(--padding-xs);
+  box-sizing: border-box;
+  position: sticky;
+  gap: var(--gap-99xl);
+  flex-shrink: 0;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}

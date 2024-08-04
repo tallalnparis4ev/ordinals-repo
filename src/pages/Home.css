@@ -1,0 +1,188 @@
+.nft-child,
+.nft-item {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  border-radius: var(--br-3xs);
+}
+.nft-child {
+  left: 0;
+  background-color: var(--secondary);
+  width: 100%;
+}
+.nft-item {
+  bottom: 0;
+  left: 183px;
+  background-color: #33343c;
+  width: 160px;
+}
+.group-icon {
+  position: absolute;
+  height: 43.33%;
+  width: 15.16%;
+  top: 30.83%;
+  right: 15.74%;
+  bottom: 25.83%;
+  left: 69.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.milenot-way-apt,
+.property-access-key {
+  position: absolute;
+  width: 37.03%;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+}
+.milenot-way-apt {
+  top: 16.67%;
+  left: 5.83%;
+  line-height: 22px;
+  font-weight: 600;
+}
+.property-access-key {
+  top: 63.33%;
+  left: 5.54%;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--typography-3);
+}
+.nft {
+  position: absolute;
+  top: 61px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+}
+.frame-child {
+  height: 45px;
+  width: 45px;
+  position: relative;
+}
+.other-nfts {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.frame-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--secondary-btc);
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+.div {
+  position: absolute;
+  top: 14.58%;
+  left: 33.33%;
+  font-weight: 600;
+}
+.ellipse-parent {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--secondary-btc);
+}
+.frame-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.nft-parent {
+  width: 343px;
+  height: 181px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.main-page,
+.nav-bar-icon {
+  position: relative;
+  overflow: hidden;
+}
+.nav-bar-icon {
+  width: 343px;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.main-page {
+  width: 100%;
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 761px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 64px) {
+  .ellipse-parent {
+    width: calc(100% - 40px);
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-2xl: 21px;
+  --font-size-base: 16px;
+
+  /* Colors */
+  --secondary: #24252c;
+  --background-color: #1a1a1a;
+  --typography-3: rgba(255, 255, 255, 0.7);
+  --typography-1: #fff;
+  --color-mediumslateblue: #465ae9;
+  --secondary-btc: #f7931a;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-19xl: 38px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-8xl: 27px;
+  --padding-2xl: 21px;
+  --padding-12xs: 1px;
+  --padding-smi: 13px;
+  --padding-mid: 17px;
+  --padding-sm: 14px;
+  --padding-base: 16px;
+  --padding-8xs: 5px;
+  --padding-mini: 15px;
+  --padding-xl: 20px;
+  --padding-5xl: 24px;
+  --padding-35xl: 54px;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}

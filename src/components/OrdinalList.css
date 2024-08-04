@@ -1,0 +1,123 @@
+.inscription-2f83b9b0 {
+  height: 49px;
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 116px;
+}
+.vector-icon {
+  width: 7px;
+  height: 14px;
+  position: relative;
+  object-fit: contain;
+}
+.inscription-item,
+.vector-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-wrapper {
+  flex-direction: column;
+  padding: var(--padding-mid) 0 0;
+}
+.inscription-item {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-19xl);
+}
+.inscription-2f83b9b01 {
+  height: 49px;
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 116px;
+}
+.vector-icon1 {
+  width: 7px;
+  height: 14px;
+  position: relative;
+  object-fit: contain;
+}
+.inscription-item1,
+.vector-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-container {
+  height: 14px;
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.inscription-item1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-19xl);
+}
+.inscription-2f83b9b02 {
+  height: 49px;
+  flex: 1;
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  min-width: 116px;
+}
+.vector-icon2 {
+  width: 7px;
+  height: 14px;
+  position: relative;
+  object-fit: contain;
+}
+.inscription-item2,
+.vector-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vector-frame {
+  height: 14px;
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.inscription-item2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-19xl);
+}
+.inscription-list,
+.inscription-list-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inscription-list {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 0 0 var(--padding-12xs);
+  gap: var(--gap-3xs);
+}
+.inscription-list-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-8xl) 0 var(--padding-2xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--typography-1);
+  font-family: var(--font-montserrat);
+}
